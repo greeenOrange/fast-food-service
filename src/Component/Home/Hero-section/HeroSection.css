@@ -1,0 +1,58 @@
+body{
+    background: #FCFCFC;
+}
+.hero-section{
+    box-shadow: 0px 10px 10px -10px red;
+    /* overflow: hidden;
+    position: relative; */
+    
+    clip-path: ellipse(100% 55% at 48% 44%);
+}
+
+
+
+    /* content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scale(1.5); */
+
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section .hero-left{
+    margin-top: 4.4rem;
+    align-self: flex-start;
+    width: 50%;
+}
+.hero-section .hero-left h1{
+    font-weight: 600;
+    font-size:2.5rem;
+}
+.hero-section .hero-left .second-line{
+    display: block;
+}
+.hero-section .hero-left .second-line span{
+    color: #F72D57;
+}
+.hero-section .hero-right{
+    display: block;
+    width: 591px;
+    height: 501px;
+    background-image: url('https://i.ibb.co/Kxhwkg9/banner-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.hero-section .sheap{
+    background: #F5F5F5;
+    box-shadow: 0px 15px 150px rgba(247, 45, 87, 0.07);
+}

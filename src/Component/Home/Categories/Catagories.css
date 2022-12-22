@@ -1,0 +1,36 @@
+.catagory-section{
+    box-shadow: 0px 10px 1000px -100px #FBEEF0;
+    /* background:linear-gradient(#FAEEF2, #FCFCFC); */
+    /* position: absolute; */
+}
+.catagory-section .swiper-card {
+    
+}
+.catagory-section .swiper-card .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+
+    background: #fff;
+    margin: 0 3.4rem;
+    border: 4px soild black !important;
+    box-shadow: 0 0 5px 1px red;
+    padding: 0 .3rem;
+}
+.catagory-section .catagory-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 3rem;
+}
+.catagory-section .catagory-items button{
+    padding: 1rem 1.5rem;
+    border:none;
+    background: #FFFFFF;
+    color: #F72D57;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);;
+}
+.catagory-section .catagory-items button:hover{
+    cursor: pointer;
+}
