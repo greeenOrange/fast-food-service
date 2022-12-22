@@ -1,8 +1,12 @@
 .catagory-section{
-    /* box-shadow: 0px 10px 1000px -100px #FBEEF0; */
-    /* background:linear-gradient(#FAEEF2, #FCFCFC); */
+    /* box-shadow: 0px 10px 1000px 660px #fbeef0; */
+    box-shadow: 0px 10px 100px 100px #fbeef0;
+    background:linear-gradient(#FAEEF2, #FCFCFC);
     /* position: absolute; */
-    padding: 2rem 0;
+    /* top: 100%;
+    left: 0;
+    right: 0; */
+    padding: 3rem;
 }
 .catagory-section h2{
     text-align: center;
