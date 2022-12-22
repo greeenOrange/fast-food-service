@@ -17,17 +17,20 @@ const NavBar = () => {
                 <div className="log">
                     <Link href="/"><img src="https://i.ibb.co/Q80Z4Ss/Taste-now.png" alt="logo" /></Link>
                 </div>
-                <div className="menu-icon" onClick={handleShowNavbar}>
-                <Hamburger />
-                </div>
+                
+                <div className={`nav-elements  ${isOpen && 'active'}`}>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contactus">Contact Us</a></li>
                     <button className='cart-icon'><FontAwesomeIcon icon={faShoppingCart} /></button>
                     <button>sign up</button>
                 </ul>
+                </div>
+                <div className="menu-icon" onClick={handleShowNavbar}>
+                <Hamburger />
+                </div>
             </nav>
             </div>
         </div>

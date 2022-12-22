@@ -73,7 +73,7 @@ body{
           display: block;
           cursor: pointer;
         }
-        nav .header ul{
+        .nav-elements .header ul li a{
             display: none;
         }
     }
