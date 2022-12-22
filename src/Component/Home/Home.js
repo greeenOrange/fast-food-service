@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import AboutUs from './AboutUs/AboutUs';
 import Catagories from './Categories/Catagories';
+import Footer from './Footer/Footer';
 import HeroSection from './Hero-section/HeroSection';
 import './Home.css'
 
@@ -12,6 +13,7 @@ const Home = () => {
             <HeroSection />
             <Catagories />
             <AboutUs />
+            <Footer />
         </div>
     );
 };

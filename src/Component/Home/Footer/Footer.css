@@ -1,0 +1,28 @@
+footer{
+    background:  #F72D57;
+    
+}
+footer .footer-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer .footer-logo a{
+    display: block;
+}
+footer svg{
+    color: #ffff;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: .6rem 0;
+}
+.footer-container ul{
+    list-style: none;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: #ffff;
+}

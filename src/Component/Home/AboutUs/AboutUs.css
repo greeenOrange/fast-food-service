@@ -5,7 +5,7 @@
 .aboutus-section .about-us-top .aboutus-one{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 70px;
     margin-bottom: 4rem;
 }
 .aboutus-section .about-us-top .aboutus-one img{
