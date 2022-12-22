@@ -1,0 +1,27 @@
+.aboutus-section h2, p{
+    color: #3F3F3F;
+    font-size: 1.7rem;
+}
+.aboutus-section .about-us-top .aboutus-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 4rem;
+}
+.aboutus-section .about-us-top .aboutus-one img{
+    width: 500px;
+}
+.aboutus-section .about-us-top .aboutus-one h2 .team-color{
+    color: #F72D57;
+}
+.aboutus-section .about-us-top .aboutus-one .aboutus-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus-section .about-us-top .aboutus-one .aboutus-details .success{
+    display: block;
+}
+.aboutus-section .about-us-top .aboutus-one .aboutus-details p{
+    text-align: left;
+}
