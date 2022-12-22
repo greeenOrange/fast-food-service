@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import './Catagories.css'
 
 import { Navigation, Pagination } from "swiper";
-import { faPizzaSlice } from '@fortawesome/free-solid-svg-icons';
+import { faPizzaSlice, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Catagories = () => {
     return (
@@ -30,10 +30,74 @@ const Catagories = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><div className='card'><img src="https://i.ibb.co/0n1RkzS/pizza1.png" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='card'><img src="https://i.ibb.co/VMWnrQ6/pizza2.png" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='card'><img src="https://i.ibb.co/PYw9Z3V/pizza3.png" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='card'><img src="https://i.ibb.co/NT8z1PY/pizza4.png" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='card'>
+        <div className="price-tag">
+            <img src="https://i.ibb.co/VVc1Ykt/price-tag.png" alt="" />
+          <div className="price-star">
+          <FontAwesomeIcon icon={faStar} />
+          <p>5</p>
+          </div>
+            </div>
+          <img src="https://i.ibb.co/0n1RkzS/pizza1.png" alt="" />
+          <div className="card-details">
+            <h5>Pepperoni Pizza</h5>
+            <p>Di napoles</p>
+            <h6>$11,99</h6>
+            <button>Add to cart</button>
+          </div>
+        </div></SwiperSlide>
+        <SwiperSlide><div className='card'>
+            <div className="price-tag">
+            <img src="https://i.ibb.co/VVc1Ykt/price-tag.png" alt="" />
+          <div className="price-star">
+          <FontAwesomeIcon icon={faStarHalf} />
+          <p>4.5</p>
+          </div>
+            </div>
+          <img src="https://i.ibb.co/VMWnrQ6/pizza2.png" alt="" />
+        <div className="card-details">
+            <h5>Pepperoni Pizza</h5>
+            <p>Di napoles</p>
+            <h6>$13,99</h6>
+            <button>Add to cart</button>
+          </div>
+        </div></SwiperSlide>
+        <SwiperSlide>
+          <div className='card'>
+          <div className="price-tag">
+            <img src="https://i.ibb.co/VVc1Ykt/price-tag.png" alt="" />
+          <div className="price-star">
+          <FontAwesomeIcon icon={faStarHalf} />
+          <p>4.3</p>
+          </div>
+            </div>
+            <img src="https://i.ibb.co/PYw9Z3V/pizza3.png" alt="" />
+        <div className="card-details">
+            <h5>Vegetarian Pizza</h5>
+            <p>Cosa di Mario</p>
+            <h6>$12,99</h6>
+            <button>Add to cart</button>
+          </div>
+        </div></SwiperSlide>
+        <SwiperSlide>
+          <div className='card'>
+          <div className="price-tag">
+            <img src="https://i.ibb.co/VVc1Ykt/price-tag.png" alt="" />
+          <div className="price-tag-icon">
+          <div className="price-star">
+          <FontAwesomeIcon icon={faStarHalf} />
+          <p>4</p>
+          </div>
+          </div>
+            </div>
+            <img src="https://i.ibb.co/NT8z1PY/pizza4.png" alt="" />
+        <div className="card-details">
+            <h5>Mediterranean Pizza</h5>
+            <p>Milano</p>
+            <h6>$15,99</h6>
+            <button>Add to cart</button>
+          </div>
+        </div></SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>

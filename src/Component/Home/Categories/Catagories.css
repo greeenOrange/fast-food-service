@@ -13,15 +13,18 @@
     color: #F72D57;
 }
 .mySwiper{
-    height: 350px;
+    height: 380px;
 }
 .catagory-section .swiper-card .card{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     /* width: 300px;
     max-width: auto; */
-    height: 270px;
+    height: 300px;
+    max-height: auto;
     max-height: auto;
     background: #fff;
     margin-right: .4rem;
@@ -29,6 +32,61 @@
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     margin: 0 .3rem;
+}
+.catagory-section .swiper-card .card .price-tag{
+    top: 0;
+    right: 4%;
+    position: absolute;
+}
+.catagory-section .swiper-card .card .price-tag img{
+    height: 45px;
+    position: relative;
+}
+.catagory-section .swiper-card .card .price-tag .price-star{
+    top: 0;
+    left: 30%;
+    position: absolute;
+}
+.catagory-section .swiper-card .card .price-tag p{
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0;
+}
+.catagory-section .swiper-card .card .price-tag svg{
+    font-size: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.catagory-section .swiper-card .card .card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.catagory-section .swiper-card .card .card-details h5, h6, p{
+    text-align: center;
+    margin: .9rem 0;
+    font-size: .9rem;
+}
+.catagory-section .swiper-card .card .card-details p{
+    color: #3F3F3F;
+}
+.catagory-section .swiper-card .card .card-details button{
+    margin-top: .8rem;
+    padding: .7rem 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background: #F72D57;
+    color: #fff;
+    transition: all ease-out .2s;
+}
+.catagory-section .swiper-card .card .card-details button:hover{
+    cursor: pointer;
+    border: 1px solid #F72D57;
+    background: #fff;
+    color: #F72D57;
 }
 .catagory-section .catagory-items{
     display: grid;
