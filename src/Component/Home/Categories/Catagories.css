@@ -1,36 +1,81 @@
 .catagory-section{
-    box-shadow: 0px 10px 1000px -100px #FBEEF0;
+    /* box-shadow: 0px 10px 1000px -100px #FBEEF0; */
     /* background:linear-gradient(#FAEEF2, #FCFCFC); */
     /* position: absolute; */
+    padding: 2rem 0;
 }
-.catagory-section .swiper-card {
-    
+.catagory-section h2{
+    text-align: center;
+    line-height: 62px;
+    font-size: 1.7rem;
+}
+.catagory-section h2 span{
+    color: #F72D57;
+}
+.mySwiper{
+    height: 350px;
 }
 .catagory-section .swiper-card .card{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 235px;
-
+    /* width: 300px;
+    max-width: auto; */
+    height: 270px;
+    max-height: auto;
     background: #fff;
-    margin: 0 3.4rem;
-    border: 4px soild black !important;
-    box-shadow: 0 0 5px 1px red;
-    padding: 0 .3rem;
+    margin-right: .4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 0 .3rem;
 }
 .catagory-section .catagory-items{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin: 0 3rem;
+    margin-bottom: .6rem;
 }
 .catagory-section .catagory-items button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem 1.5rem;
     border:none;
     background: #FFFFFF;
     color: #F72D57;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: .4rem;
+}
+.catagory-section .catagory-items button img,svg{
+    margin-right: .7rem;
+    font-size: 1.8rem;
+}
+.catagory-section .catagory-items button:active{
+    background: #F72D57;
+    color: #FFFFFF;
 }
 .catagory-section .catagory-items button:hover{
     cursor: pointer;
+}
+.swiper-button-next{
+    position: absolute;
+    top: 94%;
+    left: 53%;
+    z-index: 111;
+}
+.swiper-button-prev{
+    position: absolute;
+    top: 94%;
+    left: 46%;
+    z-index: 111;
+}
+:root {
+    --swiper-navigation-color: #F72D57;
+  }
+:root {
+    --swiper-theme-color: #F72D57;
+  }
+  :root {
+    --swiper-navigation-size: 24px;
 }
