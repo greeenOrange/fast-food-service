@@ -9,6 +9,7 @@ footer .footer-logo {
 }
 footer .footer-logo a{
     display: block;
+    margin: .4rem 0;
 }
 footer svg{
     color: #ffff;
